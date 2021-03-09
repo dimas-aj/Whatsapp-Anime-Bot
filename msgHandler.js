@@ -68,7 +68,7 @@ module.exports = msgHandler = async (client, message) => {
         const isGroupAdmins = isGroupMsg ? groupAdmins.includes(sender.id) : false
         const isBotGroupAdmins = isGroupMsg ? groupAdmins.includes(botNumber + '@c.us') : false
         const isBanned = ban.includes(chatId)
-        const botadmins = ['919744375687@c.us'] //add the number of people that you want to the be bot admins
+        const botadmins = ['6283814741120@c.us'] //add the number of people that you want to the be bot admins
         const isbotadmin = botadmins.includes(sender.id)
         const isnsfw = nsfwgrp.includes(chat.id)
         const isQuotedImage = quotedMsg && quotedMsg.type === 'image'
